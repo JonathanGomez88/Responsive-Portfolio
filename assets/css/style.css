@@ -118,6 +118,12 @@ h3, h2 {
   border-bottom: 2px solid #eee;
 }
 
+h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #4aaaa5;  
+}
+
 /* main */
 
 #main-container {
@@ -177,45 +183,6 @@ h3, h2 {
   margin-right: 25px;
 }
 
-/* contact page */
-
-#contact-form ul {
-  margin-bottom: 20px;
-}
-
-#contact-form li {
-  margin-bottom: 10px;
-}
-
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #ddd;
-}
-
-textarea {
-  height: 200px;
-}
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #fff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
-}
 
 /* 980 */
 @media screen and (max-width: 980px) {
